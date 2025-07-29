@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_urban_morphology_morphology_metrics",
+  "info": {
+    "displayName": "morphology_metrics"
+  },
+  "options": {},
+  "attributes": {
+    "MapType": {
+      "type": "string"
+    },
+    "percentage": {
+      "type": "string"
+    },
+    "MapImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Length_Of_Street_network": {
+      "type": "string"
+    },
+    "Length_Of_Street_network_in_KM": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

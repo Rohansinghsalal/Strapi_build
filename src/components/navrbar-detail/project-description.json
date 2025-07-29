@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navrbar_detail_project_descriptions",
+  "info": {
+    "displayName": "Project_Description"
+  },
+  "options": {},
+  "attributes": {
+    "project_About": {
+      "type": "text"
+    },
+    "Project_Methodology": {
+      "type": "richtext"
+    },
+    "Project_Outcomes": {
+      "type": "richtext"
+    },
+    "Teams_Member_Name": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

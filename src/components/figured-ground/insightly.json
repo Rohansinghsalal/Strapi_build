@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_figured_ground_insightlies",
+  "info": {
+    "displayName": "Insightly"
+  },
+  "options": {},
+  "attributes": {
+    "sequece_number": {
+      "type": "integer"
+    },
+    "Details": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Insightly_Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "issue": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_teams_detail_teams",
+  "info": {
+    "displayName": "Teams"
+  },
+  "options": {},
+  "attributes": {
+    "Team_name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "Team_photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Bio": {
+      "type": "richtext"
+    },
+    "LinkedIn_Profile": {
+      "type": "string"
+    },
+    "sequence_number": {
+      "type": "decimal"
+    }
+  },
+  "config": {}
+}

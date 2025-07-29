@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "figured_ground_navbars",
+  "info": {
+    "singularName": "figured-ground-navbar",
+    "pluralName": "figured-ground-navbars",
+    "displayName": "Figured_Ground_Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Figured_Ground_Proect": {
+      "type": "component",
+      "component": "figured-ground.project-description",
+      "repeatable": false
+    },
+    "Insightly_Deatils": {
+      "type": "component",
+      "component": "figured-ground.insightly",
+      "repeatable": true
+    },
+    "Events_Detail": {
+      "type": "component",
+      "component": "figured-ground.events",
+      "repeatable": true
+    }
+  }
+}

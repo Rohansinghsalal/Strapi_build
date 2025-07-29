@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "newsletters",
+  "info": {
+    "singularName": "newsletter",
+    "pluralName": "newsletters",
+    "displayName": "Newsletter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NewsLetter_Title": {
+      "type": "text"
+    },
+    "NewsLetter_Description": {
+      "type": "text"
+    },
+    "Add_Substack_Details": {
+      "type": "component",
+      "component": "ideas-detail.news-letter-ideas",
+      "repeatable": true
+    }
+  }
+}

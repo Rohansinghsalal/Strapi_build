@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_urban_morphology_statalites",
+  "info": {
+    "displayName": "statalite"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "statliteImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

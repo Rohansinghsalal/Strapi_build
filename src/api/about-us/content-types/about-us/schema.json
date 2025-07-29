@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Landing_Title": {
+      "type": "string"
+    },
+    "Landing_description": {
+      "type": "text"
+    },
+    "About_Section_Photo": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "About_description": {
+      "type": "richtext"
+    },
+    "Cupdf_Team": {
+      "type": "component",
+      "component": "teams-detail.teams",
+      "repeatable": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "urban_morophology_navbars",
+  "info": {
+    "singularName": "urban-morophology-navbar",
+    "pluralName": "urban-morophology-navbars",
+    "displayName": "urban-morophology_Navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Peoject_Description": {
+      "type": "component",
+      "component": "navrbar-detail.project-description",
+      "repeatable": false
+    },
+    "Insights": {
+      "type": "dynamiczone",
+      "components": [
+        "navrbar-detail.insighlry",
+        "navrbar-detail.events"
+      ]
+    }
+  }
+}

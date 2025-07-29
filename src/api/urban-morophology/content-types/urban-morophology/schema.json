@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "urban_morophologies",
+  "info": {
+    "singularName": "urban-morophology",
+    "pluralName": "urban-morophologies",
+    "displayName": "urban-morophology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CityName": {
+      "type": "string"
+    },
+    "MorphologyName": {
+      "type": "string"
+    },
+    "FARvalue": {
+      "type": "string"
+    },
+    "MorphologyDescription": {
+      "type": "richtext"
+    },
+    "Morphology": {
+      "type": "component",
+      "component": "urban-morphology.morphology-metrics",
+      "repeatable": true
+    },
+    "SmallCityimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "keyMap": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Image_3D": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "barGraph": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "FloorSpaceValues": {
+      "type": "dynamiczone",
+      "components": [
+        "urban-morphology.floor-space",
+        "urban-morphology.statalite",
+        "urban-morphology.plan-caption"
+      ]
+    }
+  }
+}

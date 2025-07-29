@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "figured_grounds",
+  "info": {
+    "singularName": "figured-ground",
+    "pluralName": "figured-grounds",
+    "displayName": "FiguredGround"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "City": {
+      "type": "string"
+    },
+    "Maps_A1_A2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Pdf": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Geopack": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Latitude": {
+      "type": "decimal"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Longitude": {
+      "type": "decimal"
+    },
+    "CorporationAreaInSqkm": {
+      "type": "decimal"
+    },
+    "Figured_Ground_Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "City_Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ElevationInMetres": {
+      "type": "string"
+    },
+    "keyMap": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

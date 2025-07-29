@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_navrbar_detail_events",
+  "info": {
+    "displayName": "Events"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "new": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

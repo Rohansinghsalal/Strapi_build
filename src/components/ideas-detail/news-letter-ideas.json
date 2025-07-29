@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_ideas_detail_news_letter_ideas",
+  "info": {
+    "displayName": "NewsLetterIdeas"
+  },
+  "options": {},
+  "attributes": {
+    "substack_title": {
+      "type": "string"
+    },
+    "Substack_ExternalLink": {
+      "type": "string"
+    },
+    "SubstackImagethumbnail": {
+      "type": "media",
+      "multiple":  true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Substack_Description": {
+      "type": "blocks"
+    },
+    "Substack_ReleasedDate": {
+      "type": "string"
+    },
+    "Top_Stack": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "traning_and_events",
+  "info": {
+    "singularName": "traning-and-event",
+    "pluralName": "traning-and-events",
+    "displayName": "TraningAndEvent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TraningAndEvent_describtion": {
+      "type": "text"
+    },
+    "ThumnailImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

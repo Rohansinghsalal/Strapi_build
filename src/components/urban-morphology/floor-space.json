@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_urban_morphology_floor_spaces",
+  "info": {
+    "displayName": "FloorSpace"
+  },
+  "options": {},
+  "attributes": {
+    "floor": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

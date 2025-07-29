@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_navrbar_detail_insighlries",
+  "info": {
+    "displayName": "Insighlry"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

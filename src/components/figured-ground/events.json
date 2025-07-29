@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_figured_ground_events",
+  "info": {
+    "displayName": "Events"
+  },
+  "options": {},
+  "attributes": {
+    "Event": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_substack_info_substack_details2s",
+  "info": {
+    "displayName": "SubstackDetails2"
+  },
+  "options": {},
+  "attributes": {
+    "titi": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_figured_ground_project_descriptions",
+  "info": {
+    "displayName": "Project_Description"
+  },
+  "options": {},
+  "attributes": {
+    "Project_Describtion": {
+      "type": "richtext"
+    },
+    "Project_Methology": {
+      "type": "richtext"
+    },
+    "Project_Outcomes": {
+      "type": "richtext"
+    },
+    "Team_Member_Name": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}
